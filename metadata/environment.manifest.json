@@ -1,0 +1,27 @@
+{
+  "name": "RF Environment Monitor",
+  "version": "3.6.8",
+  "target": "LILYGO T-Embed CC1101 Plus",
+  "runtime": "Bruce 1.16.1",
+  "mode": "passive-observation-only",
+  "storage": {
+    "config": "/environment.config.json",
+    "log": "/environment.log",
+    "optional_bootscreen": [
+      "/environment.bootscreen.jpg",
+      "/environment.bootscreen.jpeg",
+      "/bootscreen.jpg",
+      "/bootscreen.jpeg"
+    ]
+  },
+  "capabilities": [
+    "Sub-GHz receive-only sampling",
+    "Wi-Fi environment scanning",
+    "SD signal logging",
+    "RF activity heatmap",
+    "RF activity click detector",
+    "System monitoring",
+    "Diagnostics"
+  ],
+  "transmit_capabilities": false
+}
